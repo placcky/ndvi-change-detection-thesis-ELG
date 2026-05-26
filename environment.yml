@@ -1,9 +1,26 @@
 name: ndvi-workflow
 
 channels:
-  - defaults
+
+defaults
 
 dependencies:
-  - python=3.9
-  - jupyter
-  - numpy
+
+python=3.9
+jupyter
+
+# Required external environment:
+
+#
+
+# ArcGIS Pro
+
+# ArcPy
+
+# Spatial Analyst Extension
+
+#
+
+# Run notebooks using:
+
+# arcgispro-py3 environment
