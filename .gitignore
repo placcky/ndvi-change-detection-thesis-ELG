@@ -1,0 +1,26 @@
+# Raster data
+*.tif
+*.tiff
+
+# ArcGIS
+*.lock
+*.aux.xml
+*.ovr
+*.rrd
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+
+# Temporary files
+temp/
+tmp/
