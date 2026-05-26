@@ -22,9 +22,9 @@ The workflow combines:
 .
 ├── README.md
 ├── 01_generate_ndvi.ipynb
-├── 02_create_seasonal_mosaics.ipynb
-├── 03_apply_vegetation_mask.ipynb
-├── 04_calculate_ndvi_delta.ipynb
+├── 02_seasonal_mosaics.ipynb
+├── 03_vegetation_mask.ipynb
+├── 04_ndvi_delta.ipynb
 ```
 
 ---
@@ -58,7 +58,7 @@ YYYY-MM-DD_NDVI.tif
 
 ---
 
-## 2️⃣ 02_create_seasonal_mosaics.ipynb
+## 2️⃣ 02_seasonal_mosaics.ipynb
 
 **Purpose:**
 Creates seasonal NDVI mosaics from individual NDVI rasters.
@@ -93,7 +93,7 @@ NDVI_summer_2020.tif
 
 ---
 
-## 3️⃣ 03_apply_vegetation_mask.ipynb
+## 3️⃣ 03_vegetation_mask.ipynb
 
 **Purpose:**
 Applies NDVI threshold masking to isolate vegetation-covered areas.
@@ -127,7 +127,7 @@ NDVI_summer_2020_veg.tif
 
 ---
 
-## 4️⃣ 04_calculate_ndvi_delta.ipynb
+## 4️⃣ 04_ndvi_delta.ipynb.ipynb
 
 **Purpose:**
 Calculates seasonal NDVI difference between spring and summer vegetation rasters.
